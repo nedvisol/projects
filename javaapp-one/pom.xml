@@ -28,6 +28,7 @@
 		<plugins>
 			<plugin>				
 				<artifactId>maven-release-plugin</artifactId>
+				<version>2.2.1</version>
 				<executions>
 					<execution>
 						<id>release</id>
@@ -37,6 +38,7 @@
 						</goals>
 						<configuration>
 							<commitByProject>true</commitByProject>
+							<localCheckout>true</localCheckout>
 						</configuration>
 					</execution>
 				</executions>
