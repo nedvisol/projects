@@ -36,8 +36,7 @@
 							<goal>prepare</goal>
 							<goal>perform</goal>
 						</goals>
-						<configuration>
-							<commitByProject>true</commitByProject>
+						<configuration>						
 							<localCheckout>true</localCheckout>
 						</configuration>
 					</execution>
