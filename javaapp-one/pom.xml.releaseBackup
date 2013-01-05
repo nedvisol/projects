@@ -8,7 +8,7 @@
 
 	<groupId>com.nedvisol.proj</groupId>
 	<artifactId>javaapp-one</artifactId>
-	<version>1.7-SNAPSHOT</version>
+	<version>1.6-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>javaapp-one</name>
@@ -31,18 +31,9 @@
 				<version>2.3</version>
 				<executions>
 					<execution>
-						<id>release-prepare</id>
+						<id>release</id>
 						<goals>
 							<goal>prepare</goal>
-						</goals>
-						<configuration>			
-							<commitByProject>true</commitByProject>			
-							<localCheckout>true</localCheckout>
-						</configuration>
-					</execution>
-					<execution>
-						<id>release-perform</id>
-						<goals>
 							<goal>perform</goal>
 						</goals>
 						<configuration>			
@@ -51,7 +42,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>			
+			</plugin>
 		</plugins>
 	</build>
 
