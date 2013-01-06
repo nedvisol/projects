@@ -8,7 +8,7 @@
 
 	<groupId>com.nedvisol.proj</groupId>
 	<artifactId>javaapp-two</artifactId>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>javaapp-two</name>
@@ -21,7 +21,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:nedvisol/projects.git</connection>
 		<developerConnection>scm:git:git@github.com:nedvisol/projects.git</developerConnection>
-		<tag>javaapp-two-1.0</tag>
+		<tag>HEAD</tag>
 		<url>http://127.0.0.1/websvn/my-project</url>
 	</scm>
 	<build>
