@@ -32,6 +32,7 @@
 				<configuration>
 					<commitByProject>true</commitByProject>
 					<localCheckout>true</localCheckout>
+					<workingDirectory>/var/tmp/maven-release-checkout</workingDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
